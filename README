@@ -1,0 +1,34 @@
+# 🤖 AI vs Human Text Detector
+
+[![Python](https://img.shields.io/badge/Python-3.8+-blue?logo=python)](https://www.python.org/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-Latest-red?logo=streamlit)](https://streamlit.io/)
+[![scikit-learn](https://img.shields.io/badge/scikit--learn-ML-orange?logo=scikit-learn)](https://scikit-learn.org/)
+[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
+
+## 📋 Overview
+
+A machine learning application that detects whether text is **AI-generated** or **human-written** using stylometric analysis and lexical features. It also includes a **text humanization module** to transform AI-generated content into more natural-sounding text.
+
+## ✨ Features
+
+- **AI vs Human Detection**: Analyzes text using TF-IDF vectorization and stylometric features
+- **Confidence Scoring**: Provides prediction confidence percentage
+- **Text Humanization**: Rewrites AI-generated text to sound more natural
+- **Writing Style Analysis**: Extracts 6+ stylometric features
+- **User-Friendly Interface**: Built with Streamlit
+
+## 🔧 Technical Stack
+
+- **Machine Learning**: scikit-learn
+- **Text Vectorization**: TF-IDF
+- **UI Framework**: Streamlit
+- **Model Serialization**: joblib
+
+## 📊 Stylometric Features
+
+The detector analyzes:
+- Word count & sentence count
+- Average word length
+- Lexical diversity
+- Punctuation frequency
+- Character case distribution
